@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:'poppins', sans-serif;
+
+}
+
+header{
+    height: 100vh;
+    background-image:linear-gradient(rgba(3,4,7,0.48),rgba(5,10,30,0.48)),url('https://github.com/KodeGo-Bootcamp/HTML-Activity-Images/blob/main/pexels-royal-anwar-450214.jpg?raw=true');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-brand{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size:45px;
+}
+
+.header-brand__span{
+    color: greenyellow;
+}
+
+nav{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 7%;
+}
+
+nav ul li{
+    display: inline-block;
+    margin:10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-text{
+    /* background-color: orangered; */
+    position: absolute; 
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+
+}
+
+.header-text h1{
+    font-size: 70px;
+}
