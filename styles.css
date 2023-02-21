@@ -164,6 +164,11 @@ font-size:50px;
     padding: .5% 1%;
 }
 /* <!--------------------------CONTACT SECTION---------------------------> */
-
+.contact{
+    background-color: #312020;
+    height: 100vh;
+    margin-top: 300px;
+    padding: 5%;
+}
 
 /* <!--------------------------FOOTER SECTION---------------------------> */
