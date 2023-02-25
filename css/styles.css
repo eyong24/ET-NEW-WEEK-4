@@ -9,7 +9,7 @@
 } */
 
 html{
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 /********************************ELEMENT SELECTORS OR GLOBAL STYLES ********************************/
@@ -85,7 +85,7 @@ nav ul li a {
 
 
 #about{
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 
